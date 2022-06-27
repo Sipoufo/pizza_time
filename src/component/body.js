@@ -3,7 +3,7 @@ import React from "react";
 const Body = () => {
     return(
         <div className="mt-16 flex justify-center w-full mb-40">
-            <div className="flex flex-col gap-10 sm:w-9/12 justify-center text-center">
+            <div className="flex flex-col gap-10 w-6/12 sm:w-8/12 lg:w-10/12 justify-center text-center">
                 <h1 className="text-3xl font-semibold">Recommended menu</h1>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 w-full h-full mb-10">
                     {/* block 1 */}
